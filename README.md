@@ -38,7 +38,9 @@ Additional sources (e.g., Eurostat, Kaggle) were reviewed, but only the dataset 
 The raw data was meticulously cleaned and preprocessed to ensure robust analysis:
 
 Filtering: Removed observations from countries with anomalous flat price evolutions (e.g., Montenegro, North Macedonia).
+
 Imputation: For Bulgaria, Croatia, Serbia, and the United Kingdom, missing price values in early 2015 were replaced with the monthly average across the dataset.
+
 Organization: Data was sorted by country and date to facilitate reliable time series analysis.
 
 📈 **Data Analysis & Insights**
@@ -60,9 +62,11 @@ Three predictive modeling approaches were implemented to forecast future electri
 **ARIMA (AutoRegressive Integrated Moving Average):**
 Captures linear trends and seasonality 📉.
 Challenges: Produced some anomalous forecasts (e.g., negative values) due to data non-linearity ⚠️.
+
 **Hybrid Model (ARIMA + LSTM):**
 Combines ARIMA for linear trends with LSTM (Long Short-Term Memory) to model residual (non-linear) patterns 🤝.
 Result: Achieved the most promising and robust forecasts.
+
 **Linear Regression:**
 Provided straightforward linear forecasts 📈.
 Outcome: Acceptable results; however, its performance was inferior compared to the hybrid approach.
@@ -71,12 +75,15 @@ Model performance was evaluated using MAE, MSE, and MAPE metrics.
 🏆 **Results & Evaluation**
 
 **Hybrid Model:** Outperformed ARIMA and Linear Regression by effectively combining the strengths of both models 🌟.
+
 **Evaluation Metrics:** Although the hybrid model showed the best overall performance, the error metrics indicate room for further parameter tuning or alternative modeling techniques.
 
 💻 **Technologies**
 
 **Programming Language:** Python 
+
 **Key Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow
+
 **Additional Tools:** SAS Viya Data Analytics Platform (for advanced visualizations)
 
 🚀 **Getting Started**
@@ -86,6 +93,7 @@ To get started with this project:
 **Clone the Repository:**
 git clone https://github.com/mervepakcan/Household-Electricity-Prices-in-Europe
 cd Household-Electricity-Prices-in-Europe
+
 **Install Dependencies:**
 pip install -r requirements.txt
 
@@ -107,6 +115,6 @@ The project workflow includes:
 
 👥 **Authors**
 
-Sebastian Ionuț Cotinghiu
 Merve Pakcan Tufenk
+Sebastian Ionuț Cotinghiu
 Tudor Ungureanu

@@ -1,6 +1,7 @@
 # Electricity Price Analysis & Forecasting in Europe ⚡
 
 This project conducts an in-depth quantitative analysis of electricity prices across 31 European countries from January 2015 to December 2024. It leverages statistical and machine learning methods to understand historical trends, assess the impact of major disruptive events (such as the COVID-19 pandemic and the Russian invasion of Ukraine), and forecast future price movements.
+
 📑 **Table of Contents**
 
 **Project Overview**
@@ -28,6 +29,7 @@ This project aims to:
 The dataset comprises monthly electricity price observations (in EUR per MWhe) for 31 European countries covering the period from January 2015 to December 2024. Although the raw data represents European wholesale electricity prices, it has been refined to better reflect consumer-relevant trends.
 
 🔗 **Data Sources**
+
 **European Wholesale Electricity Prices(monthly):** Sourced from Ember Energy and other public datasets.
 Additional sources (e.g., Eurostat, Kaggle) were reviewed, but only the dataset with sufficient observations was utilized.
 

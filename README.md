@@ -36,8 +36,11 @@ Additional sources (e.g., Eurostat, Kaggle) were reviewed, but only the dataset 
 🧹**Data Cleaning**
 
 The raw data was meticulously cleaned and preprocessed to ensure robust analysis:
+
 Filtering: Removed observations from countries with anomalous flat price evolutions (e.g., Montenegro, North Macedonia).
+
 Imputation: For Bulgaria, Croatia, Serbia, and the United Kingdom, missing price values in early 2015 were replaced with the monthly average across the dataset.
+
 Organization: Data was sorted by country and date to facilitate reliable time series analysis.
 
 📈 **Data Analysis & Insights**

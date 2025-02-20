@@ -38,9 +38,7 @@ Additional sources (e.g., Eurostat, Kaggle) were reviewed, but only the dataset 
 The raw data was meticulously cleaned and preprocessed to ensure robust analysis:
 
 Filtering: Removed observations from countries with anomalous flat price evolutions (e.g., Montenegro, North Macedonia).
-
 Imputation: For Bulgaria, Croatia, Serbia, and the United Kingdom, missing price values in early 2015 were replaced with the monthly average across the dataset.
-
 Organization: Data was sorted by country and date to facilitate reliable time series analysis.
 
 📈 **Data Analysis & Insights**
@@ -48,8 +46,11 @@ Organization: Data was sorted by country and date to facilitate reliable time se
 Key findings from the exploratory data analysis include:
 
 **Stable Periods:** Electricity prices remained below 60 EUR until mid-2021.
+
 **Disruptive Events:** A dramatic surge in prices was observed following the COVID-19 pandemic and the Ukraine crisis—with prices peaking around 400 EUR per MWhe 🚀.
+
 **Stability Correlation:** Countries with a higher share of renewable energy (e.g., Sweden, Norway, Finland) exhibited more price stability during periods of market disruption 🌱.
+
 Visualizations—such as time series plots, box plots, and variance analysis charts—were generated to illustrate these insights.
 
 🤖 **Forecasting Models**

@@ -116,5 +116,7 @@ The project workflow includes:
 👥 **Authors**
 
 Merve Pakcan Tufenk
+
 Sebastian Ionuț Cotinghiu
+
 Tudor Ungureanu

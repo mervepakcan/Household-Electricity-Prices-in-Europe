@@ -113,10 +113,4 @@ The project workflow includes:
 - Implementation of forecasting models.
 - Evaluation of model performance using MAE, MSE, and MAPE.
 
-👥 **Authors**
 
-Merve Pakcan Tufenk
-
-Sebastian Ionuț Cotinghiu
-
-Tudor Ungureanu
